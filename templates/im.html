@@ -1,0 +1,13 @@
+<!-- index.html -->
+{% extends "base.html" %}
+
+{% block content %}
+
+    <form action="/step1" method="post">
+        <h2>User Information</h2>
+        <input type="text" name="name" placeholder="User name" required><br>
+        <input type="submit" value="Next">
+    </form>
+
+{% endblock %}
+
